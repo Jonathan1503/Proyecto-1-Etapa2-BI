@@ -1,0 +1,65 @@
+.predictions-bg {
+    
+    background-color: rgb(253, 255, 187); /* Añadiendo un color de fondo */
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .custom-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 30px; /* Haciendo el botón más redondo */
+    background-color: rgb(0, 0, 0); /* Cambiando el color del botón */
+    border: none;
+    color: white;
+    font-weight: bold; /* Texto en color blanco para hacer contraste */
+  }
+  
+  .custom-textarea {
+    width: 50%;
+    height: 80px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-right: 10px; /* Ajustando el texto a la derecha */
+    background-color: #ffffff;
+  }
+  
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%; /* Controlando el ancho total */
+    margin-bottom: 10px;
+  }
+  
+  .review-card, .stars-card {
+    flex: 1; /* Cada tarjeta ocupa la mitad del espacio */
+    margin: 5px;
+    padding: 10px;
+  }
+    .review-card {
+        border-radius: 30px;
+        background-color:  #ffffff;
+        
+  }
+  .stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffea4a; 
+  }
+
+  .home-button {
+    position: absolute;
+    top: 10px;  /* Ajusta la posición superior */
+    left: 10px; /* Ajusta la posición derecha */
+    padding: 10px 20px;
+    border-radius: 30px; /* Haciendo el botón más redondo */
+    background-color: rgb(0, 0, 0); /* Cambiando el color del botón */
+    border: none;
+    color: white;
+    font-weight: bold; /* Texto en color blanco para hacer contraste */
+  }
+  
+  

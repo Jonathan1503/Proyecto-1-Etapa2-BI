@@ -1,0 +1,68 @@
+#boton {
+    color: #000000; 
+    background-color: #FDF21C;
+    font-family: 'Poppins', sans-serif; /* Cambia 'TuFuente' a la fuente que prefieras */
+    font-size: 20px; /* Cambia el tamaño según tus preferencias */
+    font-weight: 520; /* Negrita */ 
+    
+}
+#titulos{
+    color: #000000; 
+    font-family: 'Poppins', sans-serif; /* Cambia 'TuFuente' a la fuente que prefieras */
+    font-size: 20px; /* Cambia el tamaño según tus preferencias */
+    font-weight: 520; /* Negrita */ 
+}
+
+.label-large {
+  font-size: 40px; 
+  font-weight: 500;
+}
+
+.input-large {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo {
+    width: 80px; /* Ajusta según la necesidad */
+    height: auto;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    height: 48px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    font-weight: 500;
+    display: block; /* Asegura que la etiqueta se muestra como bloque */
+  }
+  
+  button {
+    border-radius: 8px;
+  }
+  
+  
+
+
